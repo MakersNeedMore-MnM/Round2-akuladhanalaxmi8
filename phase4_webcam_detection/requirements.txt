@@ -1,0 +1,13 @@
+# AI-Based Smart Drainage Waste Detection - Phase 4
+# Real-Time Webcam Detection using the custom trained model (best.pt)
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# NOTE: This installs the CPU version of everything. No GPU is required.
+# The 'ultralytics' package will automatically pull in a matching CPU
+# build of torch if one isn't already installed.
+
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.26.0

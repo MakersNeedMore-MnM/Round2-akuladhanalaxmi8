@@ -1,0 +1,27 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and local files
+.vscode/
+.idea/
+*.swp
+.env
+.env.*
+
+# Generated training outputs
+phase3_model_training/runs/
+phase4_webcam_detection/runs/
+phase5_waste_counting/runs/
+phase8_final_integration/runs/
+
+# Dataset images and downloaded raw datasets
+phase2_dataset_prep/dataset_yolo/train/images/
+phase2_dataset_prep/dataset_yolo/valid/images/
+phase2_dataset_prep/dataset_yolo/test/images/
+phase2_dataset_prep/raw_dataset/
+*.cache

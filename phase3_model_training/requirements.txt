@@ -1,0 +1,6 @@
+# Phase 3 - YOLO Model Training requirements
+# Only the packages actually needed to train the model.
+
+ultralytics>=8.3.0
+torch>=2.2.0
+pyyaml>=6.0

@@ -1,0 +1,9 @@
+path: C:\Users\LENOVO\Downloads\AI_Smart_Drainage_FINAL\AI_Smart_Drainage\phase2_dataset_prep\dataset_yolo
+train: train/images
+val: valid/images
+test: test/images
+nc: 3
+names:
+- Plastic
+- Organic
+- Metal
