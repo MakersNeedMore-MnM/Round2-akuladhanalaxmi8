@@ -1,0 +1,22 @@
+# AI-Based Smart Drainage Waste Detection - Phase 8 (Part 1)
+# Final Integration: custom YOLO model (Phase 3) + persistent tracking
+# and unique waste counting (Phase 5 logic).
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# NOTE: This installs the CPU version of everything. No GPU is required.
+# The 'ultralytics' package will automatically pull in a matching CPU
+# build of torch if one isn't already installed. 'ultralytics' also
+# ships the built-in tracker configs (bytetrack.yaml) used here.
+#
+# ESP32 serial communication (pyserial) reuses the Phase 6 conventions.
+# It is optional at runtime: if USE_ESP32 = False in serial_controller.py,
+# or pyserial is not installed, the program still runs normally in
+# DEMO MODE.
+
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+lap>=0.5.12
+pyserial>=3.5
